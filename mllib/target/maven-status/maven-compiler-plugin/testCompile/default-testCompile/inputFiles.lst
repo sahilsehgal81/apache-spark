@@ -1,0 +1,13 @@
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/classification/JavaSVMSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/feature/JavaTfIdfSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/clustering/JavaKMeansSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/regression/JavaLassoSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/feature/JavaWord2VecSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/linalg/JavaVectorsSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/regression/JavaLinearRegressionSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/tree/JavaDecisionTreeSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/recommendation/JavaALSSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/regression/JavaRidgeRegressionSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/classification/JavaLogisticRegressionSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/random/JavaRandomRDDsSuite.java
+/usr/local/spark/mllib/src/test/java/org/apache/spark/mllib/classification/JavaNaiveBayesSuite.java

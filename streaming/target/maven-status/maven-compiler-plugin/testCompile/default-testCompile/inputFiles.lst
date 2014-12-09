@@ -1,0 +1,3 @@
+/usr/local/spark/streaming/src/test/java/org/apache/spark/streaming/JavaAPISuite.java
+/usr/local/spark/streaming/src/test/java/org/apache/spark/streaming/LocalJavaStreamingContext.java
+/usr/local/spark/streaming/src/test/java/org/apache/spark/streaming/JavaReceiverAPISuite.java

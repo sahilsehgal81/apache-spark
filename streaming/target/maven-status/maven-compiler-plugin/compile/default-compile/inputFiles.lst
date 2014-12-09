@@ -1,0 +1,2 @@
+/usr/local/spark/streaming/src/main/scala/org/apache/spark/streaming/api/java/package-info.java
+/usr/local/spark/streaming/src/main/scala/org/apache/spark/streaming/dstream/package-info.java

@@ -1,0 +1,22 @@
+Spark Command: /usr/lib/jvm/jre-1.7.0-openjdk.x86_64/bin/java -cp ::/usr/local/spark/conf:/usr/local/spark/assembly/target/scala-2.10/spark-assembly-1.1.0-hadoop1.0.4.jar -XX:MaxPermSize=128m -Dspark.akka.logLifecycleEvents=true -Xms512m -Xmx512m org.apache.spark.deploy.worker.Worker spark://hadoop.example.com:7077
+========================================
+
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+14/12/08 18:22:14 INFO Worker: Registered signal handlers for [TERM, HUP, INT]
+14/12/08 18:22:14 WARN Utils: Your hostname, hadoop.example.com resolves to a loopback address: 127.0.0.1; using 80.240.130.217 instead (on interface eth0)
+14/12/08 18:22:14 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+14/12/08 18:22:14 INFO SecurityManager: Changing view acls to: root,
+14/12/08 18:22:14 INFO SecurityManager: Changing modify acls to: root,
+14/12/08 18:22:14 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(root, ); users with modify permissions: Set(root, )
+14/12/08 18:22:15 INFO Slf4jLogger: Slf4jLogger started
+14/12/08 18:22:15 INFO Remoting: Starting remoting
+14/12/08 18:22:15 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkWorker@hadoop.example.com:42028]
+14/12/08 18:22:15 INFO Utils: Successfully started service 'sparkWorker' on port 42028.
+14/12/08 18:22:15 INFO Worker: Starting Spark worker hadoop.example.com:42028 with 2 cores, 982.0 MB RAM
+14/12/08 18:22:15 INFO Worker: Spark home: /usr/local/spark
+14/12/08 18:22:16 WARN Utils: Service 'WorkerUI' could not bind on port 8081. Attempting port 8082.
+14/12/08 18:22:16 WARN Utils: Service 'WorkerUI' could not bind on port 8082. Attempting port 8083.
+14/12/08 18:22:16 INFO Utils: Successfully started service 'WorkerUI' on port 8083.
+14/12/08 18:22:16 INFO WorkerWebUI: Started WorkerWebUI at http://hadoop.example.com:8083
+14/12/08 18:22:16 INFO Worker: Connecting to master spark://hadoop.example.com:7077...
+14/12/08 18:22:17 INFO Worker: Successfully registered with master spark://hadoop.example.com:7077

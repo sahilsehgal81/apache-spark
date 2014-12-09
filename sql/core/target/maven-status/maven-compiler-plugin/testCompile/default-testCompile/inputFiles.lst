@@ -1,0 +1,4 @@
+/usr/local/spark/sql/core/src/test/java/org/apache/spark/sql/api/java/JavaApplySchemaSuite.java
+/usr/local/spark/sql/core/src/test/java/org/apache/spark/sql/api/java/JavaRowSuite.java
+/usr/local/spark/sql/core/src/test/java/org/apache/spark/sql/api/java/JavaSideDataTypeConversionSuite.java
+/usr/local/spark/sql/core/src/test/java/org/apache/spark/sql/api/java/JavaAPISuite.java
